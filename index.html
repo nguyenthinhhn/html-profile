@@ -16,14 +16,29 @@
             box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
             max-width: 100px;
             max-width: 400px;
+            border: none;
             margin: auto;
             text-align: center;
             font-family: arial;
+            padding: 1rem 2rem;
         }
+        .content .card img{
+            width: 6rem;
+            height: 6rem;
+            border-radius: 100%;
+            margin: 0 auto;
+            margin-bottom: 1.4rem;
 
+        }
+        .content .card img:hover{
+            filter: blur(0.2);
+        }
+        .content .card h2{
+            font-size: 20px;
+        }
         .content .title {
             color: grey;
-            font-size: 18px;
+            font-size: 16px;
         }
 
         .content button {
@@ -44,10 +59,25 @@
             font-size: 22px;
             color: black;
         }
+        p{
+            color: rgba(0,0,0,.7)
 
+        }
         .content button:hover,
         .content a:hover {
             opacity: 0.7;
+        }
+        .social-media-title{
+            font-size: 1.1rem;
+            color: rgba(0,0,0,.5)
+        }
+        a i {
+            color:rgba(0, 0, 0, 0.5);
+            background-color: #ffff;
+            padding: 1rem;
+            border: 1px solid rgba(0, 0, 0, 0.1);
+            border-radius: 100%;
+            margin-left: 1rem;
         }
     </style>
 
@@ -58,59 +88,22 @@
         <h1>This is user start repo</h1>
         <div class="content">
             <span class="card">
-                <img src="https://www.w3schools.com/w3images/team2.jpg" alt="John" style="width:100%">
+                <img src="https://www.w3schools.com/w3images/team2.jpg" alt="John" >
                 <h2>Nguyễn Thịnh</h2>
                 <p class="title">Web developer</p>
-                <p>Việt Nam</p>
-                <a href="#"><i class="fa fa-twitter"></i></a>
-                <a href="#"><i class="fa fa-linkedin"></i></a>
-                <a href=""><i class="fa fa-facebook"></i></a>
+                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,</p>
+                <div >
+                    <p class="social-media-title ">Get Connected</p>
+                    <a href="#"><i class="fa fa-twitter"></i></a>
+                    <a href="#"><i class="fa fa-linkedin"></i></a>
+                    <a href="https://www.facebook.com/thinhnjr"><i class="fa fa-facebook"></i></a>
+                    
+                </div>
             </span>
 
-            <span class="card">
-                <img src="https://www.w3schools.com/w3images/team2.jpg" alt="John" style="width:100%">
-                <h2>Hungpv</h2>
-                <p class="title">Web developer</p>
-                <p>Việt Nam</p>
-                <a href="#"><i class="fa fa-twitter"></i></a>
-                <a href="#"><i class="fa fa-linkedin"></i></a>
-                <a href=""><i class="fa fa-facebook"></i></a>
-            </span>
-
-            <span class="card">
-                <img src="https://www.w3schools.com/w3images/team2.jpg" alt="John" style="width:100%">
-                <h2>Pratik Chandra Tripathi</h2>
-                <p class="title">Web developer</p>
-                <p>Việt Nam</p>
-                <a href="#"><i class="fa fa-twitter"></i></a>
-                <a href="#"><i class="fa fa-linkedin"></i></a>
-                <a href=""><i class="fa fa-facebook"></i></a>
-            </span>
-
-            <span class="card">
-                <img src="https://www.w3schools.com/w3images/team2.jpg" alt="John" style="width:100%">
-                <h2>Ngo Phuc</h2>
-                <p class="title">Computer Scientist</p>
-                <p>Việt Nam</p>
-                <a href="#"><i class="fa fa-twitter"></i></a>
-                <a href="#"><i class="fa fa-linkedin"></i></a>
-                <a href=""><i class="fa fa-facebook"></i></a>
-            </span>
-
-            <!-- Your code here... -->
-            <!-- Your code here... -->
-
-            <span class="card">
-                <img src="your avatar " alt="John" style="width:100%">
-                <h2>your name</h2>
-                <p class="title">Job</p>
-                <p>your country</p>
-                <a href="#"><i class="fa fa-twitter"></i></a>
-                <a href="#"><i class="fa fa-linkedin"></i></a>
-                <a href=""><i class="fa fa-facebook"></i></a>
-             </span>
+          
         </div>
-    </div>
+  
 <style>
     .map {
         min-width: 300px;
