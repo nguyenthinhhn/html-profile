@@ -91,7 +91,6 @@
                 </form>
             </div>
         </nav>
-
         <div class="content">
             <span class="card">
                 <img src="img.jpg" alt="John" style="width:100%">
@@ -153,6 +152,89 @@
         <li>7 : your name</li>
         <li>8 : your name</li>
     </ul>
+	<div class="container">
+    <div class="row">
+	        <div class="col-md-6">
+            <div>
+                <div class="panel panel-default">
+                    <div class="text-center header">Our Office</div>
+                    <div class="panel-body text-center">
+                        <hr />
+                       <section id="map" class="container close-map">
+						<!-- Open/Close Button -->
+						<!-- Google Map Script -->
+						<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d14143117.941545919!2d60.32337114882688!3d30.068124090484673!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x38db52d2f8fd751f%3A0x46b7a1f7e614925c!2sPakistan!5e0!3m2!1sen!2s!4v1601620710644!5m2!1sen!2s" width="100%" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+						<!-- Google Map -->
+						<div id="google-map"></div>
+					</section><!-- End Google Map Section -->
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-6">
+            <div class="well well-sm">
+                <form class="form-horizontal" method="post">
+                    <fieldset>
+                        <legend class="text-center header">Contact us</legend>
+                        <div class="form-group">
+                            <div class="col-md-10 col-md-offset-1">
+                                <input id="fname" name="name" type="text" placeholder="First Name" class="form-control">
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <div class="col-md-10 col-md-offset-1">
+                                <input id="lname" name="name" type="text" placeholder="Last Name" class="form-control">
+                            </div>
+                        </div>
+
+                        <div class="form-group">
+                            <div class="col-md-10 col-md-offset-1">
+                                <input id="email" name="email" type="text" placeholder="Email Address" class="form-control">
+                            </div>
+                        </div>
+
+                        <div class="form-group">
+                            <div class="col-md-10 col-md-offset-1">
+                                <input id="phone" name="phone" type="text" placeholder="Phone" class="form-control">
+                            </div>
+                        </div>
+
+                        <div class="form-group">
+                            <div class="col-md-10 col-md-offset-1">
+                                <textarea class="form-control" id="message" name="message" placeholder="Enter your massage for us here. We will get back to you within 2 business days." rows="7"></textarea>
+                            </div>
+                        </div>
+
+                        <div class="form-group">
+                            <div class="col-md-12 text-center">
+                                <button type="submit" class="btn btn-primary btn-lg">Submit</button>
+                            </div>
+                        </div>
+                    </fieldset>
+                </form>
+            </div>
+        </div>
+
+    </div>
+<!-- </div> -->
+
+
+<style>
+    .map {
+        min-width: 300px;
+        min-height: 300px;
+        width: 100%;
+        height: 100%;
+    }
+
+    .header {
+        background-color: #F5F5F5;
+        color: #36A0FF;
+        height: 70px;
+        font-size: 27px;
+        padding: 10px;
+    }
+</style>
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
         integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
         crossorigin="anonymous"></script>
