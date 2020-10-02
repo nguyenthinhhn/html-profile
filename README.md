@@ -1,2 +1,2 @@
 # html-profile
-html cv m
+html profile
